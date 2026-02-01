@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Kubernetes - Container Orchestration Platform | Link'sAmanah</title>
+ <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+ <header>
+ <nav>
+ <a href="../../index.html">Home</a>
+ <a href="../coding-development.html">Coding & Development</a>
+ </nav>
+ </header>
+
+ <main>
+ <article>
+ <h1>Kubernetes</h1>
+ <p class="subtitle">Production-Grade Container Orchestration</p>
+
+ <section class="intro">
+ <h2>Introduction</h2>
+ <p>Kubernetes (K8s) is an open-source container orchestration platform originally developed by Google and now maintained by the Cloud Native Computing Foundation (CNCF). It automates the deployment, scaling, and management of containerized applications across clusters of hosts. Kubernetes provides a framework for running distributed systems resiliently, handling failover, scaling, and deployment patterns. It has become the de facto standard for container orchestration, powering modern cloud-native applications worldwide.</p>
+ </section>
+
+ <section class="features">
+ <h2>Key Features</h2>
+ <ul>
+ <li><strong>Automated Deployment</strong> - Declarative configuration for deploying and updating containerized applications.</li>
+ <li><strong>Auto-Scaling</strong> - Automatically scale applications up or down based on CPU, memory, or custom metrics.</li>
+ <li><strong>Self-Healing</strong> - Automatically restart failed containers, replace nodes, and reschedule workloads.</li>
+ <li><strong>Service Discovery</strong> - Built-in DNS and load balancing for discovering and connecting services.</li>
+ <li><strong>Storage Orchestration</strong> - Automatically mount storage systems including local, cloud, and network storage.</li>
+ <li><strong>Secret Management</strong> - Secure handling of sensitive information like passwords and API keys.</li>
+ <li><strong>Rolling Updates</strong> - Deploy updates with zero downtime using rolling update strategies.</li>
+ <li><strong>Extensibility</strong> - Custom resources and operators for extending Kubernetes functionality.</li>
+ </ul>
+ </section>
+
+ <section class="download">
+ <h2>Download & Installation Instructions</h2>
+
+ <h3>Windows</h3>
+ <ol>
+ <li>Visit the Kubernetes documentation: <a href="https://kubernetes.io/docs/setup/" target="_blank">https://kubernetes.io/docs/setup/</a></li>
+ <li><strong>For local development (Minikube):</strong>
+ <ul>
+ <li>Install Minikube: <code>winget install Kubernetes.minikube</code></li>
+ <li>Start cluster: <code>minikube start</code></li>
+ </ul>
+ </li>
+ <li><strong>For Docker Desktop:</strong>
+ <ul>
+ <li>Install Docker Desktop and enable Kubernetes in Settings.</li>
+ </ul>
+ </li>
+ <li><strong>Install kubectl CLI:</strong>
+ <ul>
+ <li><code>winget install Kubernetes.kubectl</code></li>
+ </ul>
+ </li>
+ <li>Verify installation: <code>kubectl version --client</code></li>
+ </ol>
+
+ <h3>macOS</h3>
+ <ol>
+ <li>Visit the Kubernetes documentation: <a href="https://kubernetes.io/docs/setup/" target="_blank">https://kubernetes.io/docs/setup/</a></li>
+ <li><strong>Install kubectl via Homebrew:</strong> <code>brew install kubectl</code></li>
+ <li><strong>For local development (Minikube):</strong>
+ <ul>
+ <li>Install: <code>brew install minikube</code></li>
+ <li>Start: <code>minikube start</code></li>
+ </ul>
+ </li>
+ <li><strong>For Docker Desktop:</strong>
+ <ul>
+ <li>Install Docker Desktop and enable Kubernetes in Preferences.</li>
+ </ul>
+ </li>
+ <li>Verify: <code>kubectl cluster-info</code></li>
+ </ol>
+
+ <h3>Linux</h3>
+ <ol>
+ <li>Visit the Kubernetes documentation: <a href="https://kubernetes.io/docs/setup/" target="_blank">https://kubernetes.io/docs/setup/</a></li>
+ <li><strong>Install kubectl:</strong>
+ <ul>
+ <li><code>curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"</code></li>
+ <li><code>sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl</code></li>
+ </ul>
+ </li>
+ <li><strong>For local development (Minikube):</strong>
+ <ul>
+ <li><code>curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64</code></li>
+ <li><code>sudo install minikube-linux-amd64 /usr/local/bin/minikube</code></li>
+ </ul>
+ </li>
+ <li><strong>For production clusters:</strong> Consider kubeadm, k3s, or managed services (EKS, GKE, AKS).</li>
+ <li>Verify: <code>kubectl version --client</code></li>
+ </ol>
+ </section>
+
+ <section class="conclusion">
+ <h2>Conclusion</h2>
+ <p>Kubernetes has revolutionized how organizations deploy and manage containerized applications at scale. While it has a steep learning curve, the benefits of automated scaling, self-healing, and declarative infrastructure management make it invaluable for modern cloud-native development. For local development, tools like Minikube and Docker Desktop provide accessible ways to learn Kubernetes. For production, managed Kubernetes services from major cloud providers offer simplified cluster management while retaining the full power of the Kubernetes platform.</p>
+ </section>
+
+ <a href="../coding-development.html" class="back-link">← Back to Coding & Development</a>
+ </article>
+ </main>
+
+ <footer>
+ <p>© 2024-2026 Link'sAmanah. Powered by Amanah Capitals. All rights reserved.</p>
+ </footer>
+</body>
+</html>
+
+

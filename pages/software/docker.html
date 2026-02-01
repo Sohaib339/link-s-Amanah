@@ -1,0 +1,322 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="Download Docker Desktop for free. Complete guide with installation steps for Windows, macOS, and Linux. Containerization made easy.">
+ <meta name="keywords" content="Docker download, Docker Desktop, containers, containerization, DevOps, microservices">
+ <meta name="author" content="Amanah Capitals">
+ <title>Docker - Free Download for Windows, macOS & Linux | Link'sAmanah</title>
+ <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+ <div class="top-bar"> Powered by <span>Amanah Capitals</span> - Trusted Software Downloads Since 2024 </div>
+
+ <header>
+ <div class="header-container">
+ <a href="../../index.html" class="logo">
+ <div class="logo-icon">LA</div>
+ <div class="logo-text">Link's<span>Amanah</span></div>
+ </a>
+ <nav>
+ <ul id="nav-menu">
+ <li><a href="../../index.html">Home</a></li>
+ <li><a href="../coding-development.html" class="active">Coding & Dev</a></li>
+ <li><a href="../design-multimedia.html">Design</a></li>
+ <li><a href="../productivity-office.html">Productivity</a></li>
+ <li><a href="../browsers-internet.html">Browsers</a></li>
+ <li><a href="../security-utilities.html">Security</a></li>
+ <li><a href="../games-entertainment.html">Games</a></li>
+ </ul>
+ </nav>
+ </div>
+ </header>
+
+ <div class="breadcrumb">
+ <a href="../../index.html">Home</a> / <a href="../coding-development.html">Coding & Development</a> / Docker
+ </div>
+
+ <div class="software-detail">
+ <div class="software-header">
+ <h1>� Docker</h1>
+ <p class="tagline">The Platform for Building, Sharing, and Running Containerized Applications</p>
+ <div class="platforms" style="justify-content: center; margin-bottom: 20px;">
+ <span class="platform-badge windows">Windows</span>
+ <span class="platform-badge mac">macOS</span>
+ <span class="platform-badge linux">Linux</span>
+ </div>
+ <div class="download-buttons">
+ <a href="https://www.docker.com/products/docker-desktop/" target="_blank" class="download-btn windows">Download for Windows</a>
+ <a href="https://www.docker.com/products/docker-desktop/" target="_blank" class="download-btn mac">Download for macOS</a>
+ <a href="https://docs.docker.com/engine/install/" target="_blank" class="download-btn linux">Download for Linux</a>
+ </div>
+ </div>
+
+ <div class="toc">
+ <h4>Table of Contents</h4>
+ <ul>
+ <li><a href="#introduction">Introduction</a></li>
+ <li><a href="#features">Key Features</a></li>
+ <li><a href="#requirements">System Requirements</a></li>
+ <li><a href="#download-windows">Download & Install on Windows</a></li>
+ <li><a href="#download-mac">Download & Install on macOS</a></li>
+ <li><a href="#download-linux">Download & Install on Linux</a></li>
+ <li><a href="#how-to-use">How to Use (Beginner Guide)</a></li>
+ <li><a href="#problems">Common Problems & Fixes</a></li>
+ <li><a href="#conclusion">Conclusion</a></li>
+ </ul>
+ </div>
+
+ <section class="content-section" id="introduction">
+ <h2>Introduction</h2>
+ <p>Docker is a platform that enables developers to build, share, and run applications in containers. Containers are lightweight, standalone packages that include everything needed to run an application: code, runtime, system tools, libraries, and settings.</p>
+ 
+ <p>Unlike virtual machines, containers share the host system's kernel and don't require a full OS for each application. This makes them incredibly fast to start, efficient with resources, and consistent across different environments. "Works on my machine" becomes a thing of the past with Docker.</p>
+ 
+ <p>Docker has revolutionized software development and deployment, becoming an essential tool for DevOps, microservices architecture, and cloud-native applications. Whether you're developing locally, deploying to production, or managing complex infrastructure, Docker simplifies the entire process.</p>
+ </section>
+
+ <section class="content-section" id="features">
+ <h2>Key Features</h2>
+ <ul>
+ <li><strong>Containerization:</strong> Package applications with all dependencies into portable containers</li>
+ <li><strong>Docker Hub:</strong> Access thousands of pre-built images from the official registry</li>
+ <li><strong>Docker Compose:</strong> Define and run multi-container applications with YAML files</li>
+ <li><strong>Cross-Platform:</strong> Same containers run on Windows, macOS, Linux, and cloud</li>
+ <li><strong>Isolation:</strong> Each container runs in its own isolated environment</li>
+ <li><strong>Version Control:</strong> Track changes to containers like code with image layers</li>
+ <li><strong>Networking:</strong> Built-in networking for container communication</li>
+ <li><strong>Volume Management:</strong> Persist data outside containers</li>
+ <li><strong>Fast Startup:</strong> Containers start in seconds, not minutes</li>
+ <li><strong>Resource Efficient:</strong> Uses less memory and CPU than VMs</li>
+ <li><strong>CI/CD Integration:</strong> Easily integrate with Jenkins, GitHub Actions, GitLab CI</li>
+ <li><strong>Kubernetes Ready:</strong> Works seamlessly with container orchestration</li>
+ </ul>
+ </section>
+
+ <section class="content-section" id="requirements">
+ <h2>System Requirements</h2>
+ 
+ <h3>Windows</h3>
+ <table class="requirements-table">
+ <tr><th>Component</th><th>Requirement</th></tr>
+ <tr><td>OS</td><td>Windows 10/11 64-bit: Pro, Enterprise, or Education (Build 19044+)</td></tr>
+ <tr><td>WSL 2</td><td>WSL 2 backend required (Windows Subsystem for Linux)</td></tr>
+ <tr><td>RAM</td><td>4 GB minimum, 8 GB recommended</td></tr>
+ <tr><td>CPU</td><td>64-bit with SLAT (Second Level Address Translation)</td></tr>
+ <tr><td>Virtualization</td><td>Hardware virtualization must be enabled in BIOS</td></tr>
+ </table>
+
+ <h3>macOS</h3>
+ <table class="requirements-table">
+ <tr><th>Component</th><th>Requirement</th></tr>
+ <tr><td>OS</td><td>macOS 12 (Monterey) or later</td></tr>
+ <tr><td>Chip</td><td>Apple Silicon (M1/M2/M3) or Intel</td></tr>
+ <tr><td>RAM</td><td>4 GB minimum</td></tr>
+ </table>
+
+ <h3>Linux</h3>
+ <table class="requirements-table">
+ <tr><th>Component</th><th>Requirement</th></tr>
+ <tr><td>Distribution</td><td>Ubuntu 20.04+, Debian 10+, Fedora 36+, CentOS 8+</td></tr>
+ <tr><td>Kernel</td><td>Linux kernel 4.0+</td></tr>
+ <tr><td>Architecture</td><td>64-bit (x86_64/amd64 or arm64)</td></tr>
+ </table>
+ </section>
+
+ <section class="content-section" id="download-windows">
+ <h2>Download & Install on Windows</h2>
+ <div class="info-box info">
+ <strong>Official Download:</strong> <a href="https://www.docker.com/products/docker-desktop/" target="_blank">https://www.docker.com/products/docker-desktop/</a>
+ </div>
+ 
+ <h3>Prerequisites:</h3>
+ <ol>
+ <li>Enable WSL 2: Open PowerShell as Admin and run:
+ <div class="code-block">wsl --install</div>
+ </li>
+ <li>Restart your computer</li>
+ <li>Enable virtualization in BIOS (usually under CPU settings)</li>
+ </ol>
+
+ <h3>Installation Steps:</h3>
+ <ol>
+ <li>Download Docker Desktop for Windows from the official website</li>
+ <li>Run "Docker Desktop Installer.exe"</li>
+ <li>Keep "Use WSL 2 instead of Hyper-V" checked (recommended)</li>
+ <li>Click OK and wait for installation</li>
+ <li>Restart your computer when prompted</li>
+ <li>Launch Docker Desktop from the Start menu</li>
+ <li>Accept the Service Agreement</li>
+ <li>Wait for Docker to start (whale icon in system tray turns steady)</li>
+ </ol>
+ </section>
+
+ <section class="content-section" id="download-mac">
+ <h2>Download & Install on macOS</h2>
+ <div class="info-box info">
+ <strong>Official Download:</strong> <a href="https://www.docker.com/products/docker-desktop/" target="_blank">https://www.docker.com/products/docker-desktop/</a>
+ </div>
+ 
+ <ol>
+ <li>Download the appropriate version:
+ <ul>
+ <li>Apple Silicon (M1/M2/M3): Download "Apple Chip" version</li>
+ <li>Intel Mac: Download "Intel Chip" version</li>
+ </ul>
+ </li>
+ <li>Open the .dmg file</li>
+ <li>Drag Docker.app to Applications folder</li>
+ <li>Open Docker from Applications</li>
+ <li>Grant permissions when prompted</li>
+ <li>Enter your password to install helper components</li>
+ <li>Wait for Docker to start (whale icon appears in menu bar)</li>
+ </ol>
+
+ <h3>Alternative: Using Homebrew</h3>
+ <div class="code-block">brew install --cask docker</div>
+ </section>
+
+ <section class="content-section" id="download-linux">
+ <h2>Download & Install on Linux</h2>
+ <div class="info-box info">
+ <strong>Official Guide:</strong> <a href="https://docs.docker.com/engine/install/" target="_blank">https://docs.docker.com/engine/install/</a>
+ </div>
+ 
+ <h3>Ubuntu/Debian</h3>
+ <div class="code-block"># Remove old versions
+sudo apt-get remove docker docker-engine docker.io containerd runc
+
+# Set up repository
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+
+# Add Docker's official GPG key
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+
+# Set up repository
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+# Install Docker Engine
+sudo apt-get update
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+# Add your user to docker group (run without sudo)
+sudo usermod -aG docker $USER</div>
+
+ <h3>Fedora</h3>
+ <div class="code-block">sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo systemctl start docker
+sudo systemctl enable docker</div>
+ </section>
+
+ <section class="content-section" id="how-to-use">
+ <h2>How to Use (Beginner Guide)</h2>
+ 
+ <h3>1. Verify Installation</h3>
+ <div class="code-block">docker --version
+docker run hello-world</div>
+
+ <h3>2. Basic Commands</h3>
+ <table class="requirements-table">
+ <tr><th>Command</th><th>Description</th></tr>
+ <tr><td>docker pull [image]</td><td>Download an image from Docker Hub</td></tr>
+ <tr><td>docker run [image]</td><td>Run a container from an image</td></tr>
+ <tr><td>docker ps</td><td>List running containers</td></tr>
+ <tr><td>docker ps -a</td><td>List all containers</td></tr>
+ <tr><td>docker stop [id]</td><td>Stop a running container</td></tr>
+ <tr><td>docker rm [id]</td><td>Remove a container</td></tr>
+ <tr><td>docker images</td><td>List downloaded images</td></tr>
+ <tr><td>docker rmi [image]</td><td>Remove an image</td></tr>
+ </table>
+
+ <h3>3. Run Your First Container</h3>
+ <div class="code-block"># Run nginx web server
+docker run -d -p 8080:80 nginx
+
+# Open http://localhost:8080 in your browser</div>
+
+ <h3>4. Create a Dockerfile</h3>
+ <div class="code-block"># Dockerfile example for a Node.js app
+FROM node:18
+WORKDIR /app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 3000
+CMD ["npm", "start"]</div>
+
+ <h3>5. Build and Run Custom Image</h3>
+ <div class="code-block"># Build image
+docker build -t my-app .
+
+# Run container
+docker run -d -p 3000:3000 my-app</div>
+ </section>
+
+ <section class="content-section" id="problems">
+ <h2>Common Problems & Fixes</h2>
+ 
+ <h3>Problem 1: Docker daemon not running</h3>
+ <ul>
+ <li>Windows/Mac: Make sure Docker Desktop is running (check system tray)</li>
+ <li>Linux: Run <code>sudo systemctl start docker</code></li>
+ </ul>
+
+ <h3>Problem 2: Permission denied on Linux</h3>
+ <div class="code-block">sudo usermod -aG docker $USER
+# Then log out and log back in</div>
+
+ <h3>Problem 3: WSL 2 not installed (Windows)</h3>
+ <div class="code-block">wsl --install
+wsl --set-default-version 2</div>
+
+ <h3>Problem 4: Port already in use</h3>
+ <ul>
+ <li>Check what's using the port: <code>netstat -ano | findstr :8080</code></li>
+ <li>Use a different port: <code>docker run -p 8081:80 nginx</code></li>
+ </ul>
+
+ <h3>Problem 5: Out of disk space</h3>
+ <div class="code-block"># Remove unused containers, images, and volumes
+docker system prune -a</div>
+ </section>
+
+ <section class="content-section" id="conclusion">
+ <h2>Conclusion</h2>
+ <p>Docker has transformed how developers build, ship, and run applications. Its container technology provides consistency across development, testing, and production environments, eliminating the "works on my machine" problem once and for all.</p>
+ 
+ <p>Whether you're building microservices, setting up development environments, or deploying to the cloud, Docker simplifies complex workflows and accelerates development cycles. Start with the basics covered in this guide, and you'll soon be containerizing applications like a pro!</p>
+
+ <div class="info-box success">
+ <strong>Official Links:</strong><br>
+ • Website: <a href="https://www.docker.com" target="_blank">docker.com</a><br>
+ • Download: <a href="https://www.docker.com/products/docker-desktop/" target="_blank">docker.com/products/docker-desktop</a><br>
+ • Documentation: <a href="https://docs.docker.com" target="_blank">docs.docker.com</a><br>
+ • Docker Hub: <a href="https://hub.docker.com" target="_blank">hub.docker.com</a>
+ </div>
+ </section>
+
+ <div style="text-align: center; margin-top: 30px;">
+ <a href="../coding-development.html" class="btn" style="background: #6b7280;">← Back to Coding & Development</a>
+ </div>
+ </div>
+
+ <footer>
+ <div class="footer-bottom">
+ <p>© 2024-2026 Link'sAmanah. Powered by <strong>Amanah Capitals</strong>. All rights reserved.</p>
+ </div>
+ </footer>
+
+ <a href="#" class="back-to-top" id="backToTop">^</a>
+ <script>
+ window.addEventListener('scroll', function() {
+ document.getElementById('backToTop').classList.toggle('visible', window.pageYOffset > 300);
+ });
+ </script>
+</body>
+</html>
+
+

@@ -1,0 +1,338 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Link'sAmanah - Your trusted source for free software downloads. Download safe, legal, and official software for Windows, macOS, and Linux.">
+    <meta name="keywords" content="free software download, official software, Windows apps, macOS apps, Linux apps, development tools, design software">
+    <meta name="author" content="Amanah Capitals">
+    <title>Link'sAmanah - Free Official Software Downloads | Powered by Amanah Capitals</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%2326667F' width='100' height='100' rx='15'/><text x='50' y='65' font-size='45' fill='white' text-anchor='middle' font-weight='bold'>LA</text></svg>">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        Powered by <span>Amanah Capitals</span> - Trusted Software Downloads Since 2024
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">LA</div>
+                <div class="logo-text">Link's<span>Amanah</span></div>
+            </a>
+            <button class="mobile-menu-btn" onclick="toggleMenu()">Menu</button>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/coding-development.html">Coding & Dev</a></li>
+                    <li><a href="pages/design-multimedia.html">Design</a></li>
+                    <li><a href="pages/productivity-office.html">Productivity</a></li>
+                    <li><a href="pages/browsers-internet.html">Browsers</a></li>
+                    <li><a href="pages/security-utilities.html">Security</a></li>
+                    <li><a href="pages/games-entertainment.html">Games</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Link'sAmanah</h1>
+        <p>Your trusted destination for safe, legal, and official software downloads. We provide direct links to the most popular applications for Windows, macOS, and Linux - absolutely free!</p>
+        <div class="hero-search">
+            <input type="text" placeholder="Search for software..." id="search-input">
+            <button onclick="searchSoftware()">Search</button>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <h2 class="section-title">Software Categories</h2>
+        <p class="section-subtitle">Choose a category to explore our curated collection of free software</p>
+        
+        <div class="category-grid">
+            <!-- Coding & Development -->
+            <a href="pages/coding-development.html" class="category-card">
+                <div class="category-icon coding"></div>
+                <div class="category-content">
+                    <h3>Coding & Development Tools</h3>
+                    <p>IDEs, text editors, version control, containers, and frameworks for developers of all skill levels.</p>
+                    <span class="category-count">34 Software</span>
+                </div>
+            </a>
+
+            <!-- Design & Multimedia -->
+            <a href="pages/design-multimedia.html" class="category-card">
+                <div class="category-icon design"></div>
+                <div class="category-content">
+                    <h3>Design, Multimedia & Creative</h3>
+                    <p>Photo editors, video production, 3D modeling, audio editing, and graphic design software.</p>
+                    <span class="category-count">20 Software</span>
+                </div>
+            </a>
+
+            <!-- Productivity & Office -->
+            <a href="pages/productivity-office.html" class="category-card">
+                <div class="category-icon productivity"></div>
+                <div class="category-content">
+                    <h3>Productivity & Office</h3>
+                    <p>Office suites, note-taking apps, cloud storage, communication tools, and time management.</p>
+                    <span class="category-count">20 Software</span>
+                </div>
+            </a>
+
+            <!-- Browsers & Internet -->
+            <a href="pages/browsers-internet.html" class="category-card">
+                <div class="category-icon browsers"></div>
+                <div class="category-content">
+                    <h3>Browsers & Internet</h3>
+                    <p>Web browsers, download managers, and internet utilities for secure and fast browsing.</p>
+                    <span class="category-count">10 Software</span>
+                </div>
+            </a>
+
+            <!-- Security & Utilities -->
+            <a href="pages/security-utilities.html" class="category-card">
+                <div class="category-icon security"></div>
+                <div class="category-content">
+                    <h3>Security & Utilities</h3>
+                    <p>Antivirus, VPNs, file compression, remote access, and system optimization tools.</p>
+                    <span class="category-count">14 Software</span>
+                </div>
+            </a>
+
+            <!-- Games & Entertainment -->
+            <a href="pages/games-entertainment.html" class="category-card">
+                <div class="category-icon games"></div>
+                <div class="category-content">
+                    <h3>Games & Entertainment</h3>
+                    <p>Game launchers, media players, streaming platforms, and communication for gamers.</p>
+                    <span class="category-count">10 Software</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="categories" style="background: white; padding: 60px 20px;">
+        <h2 class="section-title">Why Choose Link'sAmanah?</h2>
+        <p class="section-subtitle">We are committed to providing the safest software download experience</p>
+        
+        <div class="category-grid" style="max-width: 1200px; margin: 0 auto;">
+            <div class="software-card">
+                <h3>100% Official Links</h3>
+                <p class="description">All download links point directly to official developer websites. No third-party mirrors or modified files.</p>
+            </div>
+            <div class="software-card">
+                <h3>Safe & Secure</h3>
+                <p class="description">We never host or distribute cracked, pirated, or modified software. Your security is our priority.</p>
+            </div>
+            <div class="software-card">
+                <h3>Multi-Platform</h3>
+                <p class="description">Find software for Windows, macOS, and Linux. Separate download links for each operating system.</p>
+            </div>
+            <div class="software-card">
+                <h3>Detailed Guides</h3>
+                <p class="description">Step-by-step installation guides, system requirements, and beginner tutorials for every software.</p>
+            </div>
+            <div class="software-card">
+                <h3>Completely Free</h3>
+                <p class="description">Our service is free. We feature free software and free versions of premium tools.</p>
+            </div>
+            <div class="software-card">
+                <h3>Always Updated</h3>
+                <p class="description">We regularly verify all links and update our guides to reflect the latest software versions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Link'sAmanah</h4>
+                <p>Link'sAmanah is your trusted source for free, legal, and official software downloads. We are powered by Amanah Capitals and committed to providing safe download experiences.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="pages/coding-development.html">Coding & Development</a></li>
+                    <li><a href="pages/design-multimedia.html">Design & Multimedia</a></li>
+                    <li><a href="pages/productivity-office.html">Productivity & Office</a></li>
+                    <li><a href="pages/browsers-internet.html">Browsers & Internet</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>More Categories</h4>
+                <ul>
+                    <li><a href="pages/security-utilities.html">Security & Utilities</a></li>
+                    <li><a href="pages/games-entertainment.html">Games & Entertainment</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">DMCA</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024-2026 Link'sAmanah. Powered by <strong>Amanah Capitals</strong>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">^</a>
+
+    <script>
+        // Software Database with keywords/shortforms
+        const softwareDB = [
+            // Coding & Development
+            { name: 'Visual Studio Code', keywords: ['vscode', 'vs code', 'visual studio code', 'code editor', 'vsc'], url: 'pages/software/vscode.html' },
+            { name: 'Git', keywords: ['git', 'version control', 'github'], url: 'pages/software/git.html' },
+            { name: 'Docker', keywords: ['docker', 'container', 'containerization'], url: 'pages/software/docker.html' },
+            { name: 'IntelliJ IDEA', keywords: ['intellij', 'idea', 'java ide', 'jetbrains'], url: 'pages/software/intellij.html' },
+            { name: 'PyCharm', keywords: ['pycharm', 'python ide', 'jetbrains python'], url: 'pages/software/pycharm.html' },
+            { name: 'Sublime Text', keywords: ['sublime', 'sublime text', 'sublimetext'], url: 'pages/software/sublime.html' },
+            { name: 'Atom', keywords: ['atom', 'atom editor'], url: 'pages/software/atom.html' },
+            { name: 'Notepad++', keywords: ['notepad++', 'notepad plus', 'npp'], url: 'pages/software/notepadpp.html' },
+            { name: 'Node.js', keywords: ['node', 'nodejs', 'node.js', 'npm'], url: 'pages/software/nodejs.html' },
+            { name: 'Python', keywords: ['python', 'python3', 'py'], url: 'pages/software/python.html' },
+            { name: 'XAMPP', keywords: ['xampp', 'apache', 'mysql', 'php server'], url: 'pages/software/xampp.html' },
+            { name: 'Postman', keywords: ['postman', 'api testing', 'api client'], url: 'pages/software/postman.html' },
+            
+            // Design & Multimedia
+            { name: 'GIMP', keywords: ['gimp', 'gnu image', 'photoshop alternative', 'image editor'], url: 'pages/software/gimp.html' },
+            { name: 'Blender', keywords: ['blender', '3d modeling', '3d software', 'animation'], url: 'pages/software/blender.html' },
+            { name: 'Figma', keywords: ['figma', 'ui design', 'ux design', 'prototype'], url: 'pages/software/figma.html' },
+            { name: 'Inkscape', keywords: ['inkscape', 'vector graphics', 'svg editor'], url: 'pages/software/inkscape.html' },
+            { name: 'Audacity', keywords: ['audacity', 'audio editor', 'sound editor'], url: 'pages/software/audacity.html' },
+            { name: 'DaVinci Resolve', keywords: ['davinci', 'resolve', 'video editor', 'color grading'], url: 'pages/software/davinci.html' },
+            { name: 'OBS Studio', keywords: ['obs', 'obs studio', 'streaming', 'screen recording'], url: 'pages/software/obs.html' },
+            { name: 'VLC Media Player', keywords: ['vlc', 'media player', 'video player'], url: 'pages/software/vlc.html' },
+            
+            // Productivity & Office
+            { name: 'LibreOffice', keywords: ['libreoffice', 'libre office', 'office suite', 'word', 'excel', 'writer', 'calc'], url: 'pages/software/libreoffice.html' },
+            { name: 'Notion', keywords: ['notion', 'note taking', 'workspace', 'wiki'], url: 'pages/software/notion.html' },
+            { name: 'Obsidian', keywords: ['obsidian', 'markdown', 'knowledge base', 'notes'], url: 'pages/software/obsidian.html' },
+            { name: 'Zoom', keywords: ['zoom', 'video conference', 'video call', 'meeting'], url: 'pages/software/zoom.html' },
+            { name: 'Slack', keywords: ['slack', 'team chat', 'communication', 'workspace'], url: 'pages/software/slack.html' },
+            { name: 'Trello', keywords: ['trello', 'kanban', 'project management', 'boards'], url: 'pages/software/trello.html' },
+            
+            // Browsers & Internet
+            { name: 'Google Chrome', keywords: ['chrome', 'google chrome', 'browser'], url: 'pages/software/chrome.html' },
+            { name: 'Mozilla Firefox', keywords: ['firefox', 'mozilla', 'browser', 'ff'], url: 'pages/software/firefox.html' },
+            { name: 'Brave Browser', keywords: ['brave', 'brave browser', 'privacy browser'], url: 'pages/software/brave.html' },
+            { name: 'Microsoft Edge', keywords: ['edge', 'microsoft edge', 'browser'], url: 'pages/software/edge.html' },
+            { name: 'Opera', keywords: ['opera', 'opera browser', 'opera gx'], url: 'pages/software/opera.html' },
+            
+            // Security & Utilities
+            { name: '7-Zip', keywords: ['7zip', '7-zip', 'zip', 'compression', 'archive', 'rar'], url: 'pages/software/7zip.html' },
+            { name: 'TeamViewer', keywords: ['teamviewer', 'remote desktop', 'remote access'], url: 'pages/software/teamviewer.html' },
+            { name: 'Malwarebytes', keywords: ['malwarebytes', 'antivirus', 'malware', 'security'], url: 'pages/software/malwarebytes.html' },
+            { name: 'Bitwarden', keywords: ['bitwarden', 'password manager', 'passwords'], url: 'pages/software/bitwarden.html' },
+            { name: 'WinRAR', keywords: ['winrar', 'rar', 'archive', 'compression'], url: 'pages/software/winrar.html' },
+            
+            // Games & Entertainment
+            { name: 'Steam', keywords: ['steam', 'gaming', 'game store', 'valve'], url: 'pages/software/steam.html' },
+            { name: 'Discord', keywords: ['discord', 'voice chat', 'gaming chat', 'dc'], url: 'pages/software/discord.html' },
+            { name: 'Spotify', keywords: ['spotify', 'music', 'streaming', 'music player'], url: 'pages/software/spotify.html' },
+            { name: 'Epic Games Launcher', keywords: ['epic', 'epic games', 'fortnite', 'unreal'], url: 'pages/software/epic.html' },
+            { name: 'Minecraft', keywords: ['minecraft', 'mc', 'mojang'], url: 'pages/software/minecraft.html' }
+        ];
+
+        // Mobile Menu Toggle
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('active');
+        }
+
+        // Search Function
+        function searchSoftware() {
+            const query = document.getElementById('search-input').value.toLowerCase().trim();
+            if (!query) {
+                alert('Please enter a software name to search.');
+                return;
+            }
+            
+            // Search through database
+            let bestMatch = null;
+            let highestScore = 0;
+            
+            for (const software of softwareDB) {
+                // Check exact name match
+                if (software.name.toLowerCase() === query) {
+                    bestMatch = software;
+                    break;
+                }
+                
+                // Check keywords
+                for (const keyword of software.keywords) {
+                    if (keyword === query) {
+                        bestMatch = software;
+                        highestScore = 100;
+                        break;
+                    }
+                    if (keyword.includes(query) || query.includes(keyword)) {
+                        const score = keyword.length;
+                        if (score > highestScore) {
+                            highestScore = score;
+                            bestMatch = software;
+                        }
+                    }
+                }
+                
+                // Check partial name match
+                if (software.name.toLowerCase().includes(query)) {
+                    if (!bestMatch || highestScore < 50) {
+                        bestMatch = software;
+                        highestScore = 50;
+                    }
+                }
+            }
+            
+            if (bestMatch) {
+                window.location.href = bestMatch.url;
+            } else {
+                // Show suggestions
+                const suggestions = softwareDB
+                    .filter(s => s.name.toLowerCase().includes(query.charAt(0)) || 
+                                s.keywords.some(k => k.includes(query.charAt(0))))
+                    .slice(0, 5)
+                    .map(s => s.name)
+                    .join(', ');
+                
+                alert(`No exact match found for "${query}".\n\nTry searching for: ${suggestions || 'Chrome, Firefox, VLC, GIMP, Discord'}`);
+            }
+        }
+
+        // Back to Top Button
+        window.addEventListener('scroll', function() {
+            const backToTop = document.getElementById('backToTop');
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+
+        // Search on Enter
+        document.getElementById('search-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchSoftware();
+            }
+        });
+        
+        // Live search suggestions
+        document.getElementById('search-input').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase().trim();
+            // Could add autocomplete dropdown here in future
+        });
+    </script>
+</body>
+</html>
