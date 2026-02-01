@@ -8,6 +8,7 @@
  <meta name="author" content="Amanah Capitals">
  <title>IntelliJ IDEA - Free Download | Link'sAmanah</title>
  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LA</text></svg>">
 </head>
 <body>
  <div class="top-bar"> Powered by <span>Amanah Capitals</span> - Trusted Software Downloads Since 2024 </div>
@@ -17,6 +18,7 @@
  <div class="logo-icon">LA</div>
  <div class="logo-text">Link's<span>Amanah</span></div>
  </a>
+      <button class="mobile-menu-btn" onclick="toggleMenu()"></button>
  <nav>
  <ul id="nav-menu">
  <li><a href="../../index.html">Home</a></li>
@@ -94,17 +96,58 @@
  <a href="../coding-development.html" class="btn" style="background: #6b7280;">← Back to Coding & Development</a>
  </div>
  </div>
- <footer>
- <div class="footer-bottom">
- <p>© 2024-2026 Link'sAmanah. Powered by <strong>Amanah Capitals</strong>. All rights reserved.</p>
- </div>
- </footer>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Link'sAmanah</h4>
+        <p>Link'sAmanah is your trusted source for free, legal, and official software downloads. We are powered by Amanah Capitals and committed to providing safe download experiences.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../coding-development.html">Coding & Development</a></li>
+          <li><a href="../design-multimedia.html">Design & Multimedia</a></li>
+          <li><a href="../productivity-office.html">Productivity & Office</a></li>
+          <li><a href="../browsers-internet.html">Browsers & Internet</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>More Categories</h4>
+        <ul>
+          <li><a href="../security-utilities.html">Security & Utilities</a></li>
+          <li><a href="../games-entertainment.html">Games & Entertainment</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">DMCA</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024-2026 Link'sAmanah. Powered by <strong>Amanah Capitals</strong>. All rights reserved.</p>
+      <p style="margin-top: 10px; font-size: 0.85rem;">All software names, logos, and brands are property of their respective owners. All downloads link to official sources.</p>
+    </div>
+  </footer>
  <a href="#" class="back-to-top" id="backToTop">^</a>
- <script>
- window.addEventListener('scroll', function() {
- document.getElementById('backToTop').classList.toggle('visible', window.pageYOffset > 300);
- });
- </script>
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav-menu').classList.toggle('active');
+    }
+
+    window.addEventListener('scroll', function() {
+      const backToTop = document.getElementById('backToTop');
+      if (window.pageYOffset > 300) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
+      }
+    });
+  </script>
 </body>
 </html>
 
